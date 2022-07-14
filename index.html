@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Microsoft Clone</title>
+</head>
+
+<body>
+<!-- NOTE:       Please install Node Module   using terminal (npm i)  and restart you VS code -->
+
+    <div class="container mx-auto">
+        <div class="navbar flex justify-between items-center p-4">
+
+            <div class="flex justify-center items-center md:order-2">
+                <div class="hamburger inline-block p-4 cursor-pointer md:hidden">
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                    <div class="line h-0.5 w-6 my-1 bg-black"></div>
+                </div>
+                <div class="search md:hidden w-6"><img src="/images/search.svg" alt=""></div>
+            </div>
+
+            <div class="logo text-center flex md:order-1">
+                <div class="p-2 flex items-center justify-center "> <img src="/images/microsoft.png" alt=""
+                        class="w-[60%] md:w-[100%] lg:w-[60%]"></div>
+                <div
+                    class="features absolute w-fit md:static inset-0  mx-4 space-x-2 -translate-x-96 bg-gray-200  md:w-auto md:flex md:space-x-6 md:translate-x-0 md:bg-white items-center">
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Microsoft 365</div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Office </div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Windows </div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Surface </div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Xbox </div>
+                    <div class="fitem hover:underline hover:underline-offset-8 cursor-pointer">Support </div>
+                </div>
+            </div>
+
+            <div class="cart text-center md:order-3 flex">
+                <div class="search hidden md:block px-1 mr-6">All Microsoft </div>
+                <img class="w-4 mr-4" src="/images/search.svg" alt="">
+                <div class="flex md:pt-1">
+                    <img class="w-4  h-4 mr-4" src="/images/cart.svg" alt="">
+                    <img class="w-4 h-4 mr-4" src="/images/account.svg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f2] mx-2">
+            <div class="left flex flex-col justify-center items-center md:items-baseline py-8 md:ml-32 space-y-4">
+                <h1 class="text-3xl mx-5 md:text-4xl font-medium">Microsoft 365</h1>
+                <p class="w-80 mx-5 md:text-left text-center md:text-xl">Premium Office apps, extra cloud storage,
+                    advanced security, and more – all in one convenient subscription</p>
+                <button class="text-white bg-black rounded-md px-3 py-2 my-2 font-bold mx-5">Shop Now ></button>
+            </div>
+            <div class="right">
+                <img class="md:w-[64rem]" src="/images/microsoft_main.png" alt="">
+            </div>
+        </div>
+
+        <div class="promo  space-y-6 flex flex-col md:flex-row justify-center my-20">
+            <div
+                class="item flex items-center md:flex-col underline text-blue-600 underline-offset-2 cursor-pointer mx-4  space-x-2 mt-6">
+                <img src="/images/ico1.jpeg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-3">Choose your Microsoft 365</span>
+            </div>
+
+            <div
+                class="item flex items-center md:flex-col underline text-blue-600 underline-offset-2 cursor-pointer mx-4  space-x-2">
+                <img src="/images/ico2.jpeg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-3">Explore Surface devices</span>
+            </div>
+
+            <div
+                class="item flex items-center md:flex-col underline text-blue-600 underline-offset-2 cursor-pointer mx-4  space-x-2">
+                <img src="/images/ico3.jpeg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-3">Buy Xbox games</span>
+            </div>
+
+            <div
+                class="item flex items-center md:flex-col underline text-blue-600 underline-offset-2 cursor-pointer mx-4  space-x-2 ">
+                <img src="/images/ico4.jpeg" alt="">
+                <span class="font-medium md:w-[8rem] md:text-center text-sm my-3">Get Windows 11</span>
+            </div>
+        </div>
+
+
+        <div class="buyNow space-y-10 sm:grid sm:grid-cols-2 sm:space-y-0 lg:flex  mb-14">
+
+            <div class="buyItem flex flex-col mx-5 sm:mb-8">
+                <img src="/images/buyNow_game.png" alt="" class="">
+                <h1 class="font-medium text-xl my-2">PC Game Pass</h1>
+                <p class=" font-light text-sm mb-6 w-[15.75rem]">Unlock 100+ great games and EA Play, plus get your first month for
+                    ₹50. Offer available to new subscribers only. </p>
+                <button class="hover:underline  flex text-blue-600 ">Join now ></button>
+            </div>
+
+            <div class="buyItem flex flex-col mx-5 sm:mb-8">
+                <img src="/images/buyNow_surface4.png" alt="" class="">
+                <h1 class="font-medium text-xl my-2 ">Surface Laptop 4</h1>
+                <p class=" font-light text-sm mb-6 w-[15.75rem]">Do it all with a perfect balance of sleek, ultra-thin design,
+                    multitasking speed and improved performance. </p>
+                <button class="hover:underline  flex text-blue-600 ">Shop now ></button>
+            </div>
+
+            <div class="buyItem flex flex-col mx-5">
+                <img src="/images/buyNow_surface8.png" alt="" class="">
+                <h1 class="font-medium text-xl my-2">Surface Pro 8</h1>
+                <p class=" font-light text-sm mb-6 w-[15.75rem]">Do more with a larger 13-inch touchscreen, faster connections and
+                    extra speed. Now available with Windows 11. </p>
+                <button class="hover:underline  flex text-blue-600 ">Learn more ></button>
+            </div>
+
+            <div class="buyItem flex flex-col mx-5">
+                <img src="/images/buyNow_nextGen.png" alt="" class=" ">
+                <h1 class="font-medium text-xl my-2">Designed for life today - and tomorrow</h1>
+                <p class=" font-light text-sm mb-6 w-[15.75rem]">The next-generation of games. Your goals. Friends and family.
+                    Windows 11 was made to bring you closer to everything you love.</p>
+                <button class="hover:underline  flex text-blue-600">See if your PC is ready ></button>
+            </div>
+
+        </div>
+
+        <div class="edge flex items-center justify-center flex-col md:relative mb-20">
+            <img src="/images/edge.png" alt="" class="mx-80 ">
+            <div
+                class="aboutEdge bg-white-200 p-9 md:absolute md:w-[9[11.75rem]%] md:bg-white md:top-[88%]  lg:w-[30%] lg:top-32 lg:left-10 md:shadow-md  2xl:left-40 2xl:top-48">
+                <h1 class="font-medium text-2xl mb-5">Microsoft Edge </h1>
+                <p class="text-sm leading-6 mb-5">World-class performance with more privacy, more productivity and more
+                    value while you browse.</p>
+                <button class="text-white bg-blue-600 rounded-sm px-3 py-2  font-bold ">Download now</button>
+            </div>
+        </div>
+
+
+        <div class="business md:mt-60">
+            <h1 class="mx-5 text-xl font-medium mb-4">For Business</h1>
+            <div class="space-y-9 sm:grid sm:grid-cols-2 sm:space-y-0 lg:flex">
+
+                <div class="flex flex-col mx-5 businessItem ">
+                    <img src="/images/business_1.png" alt="">
+                    <div class="w-min bg-yellow-400 py-1 px-3 mt-4">New</div>
+                    <h1 class="font-medium text-xl my-2">Surface Laptop Go 2 for Business</h1>
+                    <p class="w-[15.75rem]">A sleek, portable laptop featuring a great typing experience, WIndow 11 Pro and
+                        professional-grade perfomance</p>
+                    <button class="flex text-blue-600  mt-6 hover:underline-offset-2 hover:underline sm:mb-9">Learn more
+                        ></button>
+                </div>
+
+                <div class="flex flex-col mx-5 businessItem ">
+                    <img src="/images/business_2.png" alt="" class="sm:mb-5">
+                    <div class="w-min py-1 px-3 mt-4"></div>
+                    <h1 class="font-medium text-xl my-2">Get MIcrosoft Teams for free</h1>
+                    <p class="w-[15.75rem]">Online meetings, chat and shared cloud storage – all in one place. </p>
+                    <button class="flex text-blue-600  mt-6 hover:underline-offset-2 hover:underline">Sign up for free
+                        ></button>
+                </div>
+
+                <div class="flex flex-col mx-5 businessItem ">
+                    <img src="/images/business_3.png" alt="" class="sm:mb-5">
+                    <div class="w-min  py-1 px-3 mt-4"></div>
+                    <h1 class="font-medium text-xl my-2">Microsoft 365 for business</h1>
+                    <p class="w-[15.75rem]">Stay a step ahead with powerful apps for productivity, connection and security.</p>
+                    <button class="flex text-blue-600  mt-6 hover:underline-offset-2 hover:underline">Shop now
+                        ></button>
+                </div>
+
+                <div class="flex flex-col mx-5 businessItem ">
+                    <img src="/images/business_4.png" alt="" class="sm:mb-5">
+                    <div class="w-min  py-1 px-3 mt-4"></div>
+                    <h1 class="font-medium text-xl my-2">Thrive in a hybrid world</h1>
+                    <p class="w-[15.75rem]">Stay a step ahead with powerful apps for productivity, connection and security. </p>
+                    <button class="flex text-blue-600  mt-6 hover:underline-offset-2 hover:underline">Learn more
+                        ></button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="socialAccount flex items-center mx-5 my-16">
+            <h1 class="mr-4 font-light">Follow Microsoft</h1>
+            <img src="/images/social_icon1.jpeg" alt="" class="h-10 pr-2 cursor-pointer mr-2">
+            <img src="/images/social_icon2.jpeg" alt="" class="h-10 pr-4 cursor-pointer mr-2">
+            <img src="/images/social_icon3.jpeg" alt="" class="h-10  cursor-pointer mr-2">
+        </div>
+
+    </div>
+
+        <div class="footer space-y-8 bg-[#f2f2f2] pl-12 pt-10 sm:grid sm:grid-cols-3 sm:space-y-0 lg:flex lg:space-x-24">
+
+            <div class="footerItem mb-16 ">
+                <ul >
+                    <li class="font-bold text-lg text-gray-[11.75rem]00 mb-3">What's new</li>
+                    <div class="font-light text-sm space-y-4">
+                        <li>Microsoft 365</li>
+                        <li>Surface Pro X</li>
+                        <li>Surface Pro [11.75rem]</li>
+                        <li>Surface Laptop 3</li>
+                        <li>Windows 11 apps</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footerItem mb-16">
+                <ul >
+                    <li class="font-bold text-lg text-gray-[11.75rem]00 mb-3">Microsoft Store</li>
+                    <div class="font-light text-sm space-y-4">
+                        <li>Account profile</li>
+                        <li>Download Center</li>
+                        <li>Microsoft Store Support</li>
+                        <li>Returns</li>
+                        <li>Order tracking</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footerItem mb-16">
+                <ul>
+                    <li class="font-bold text-lg text-gray-[11.75rem]00 mb-4 ">Education</li>
+                    <div class="font-light text-sm space-y-4">
+                        <li>Microsoft in education</li>
+                        <li>Devices for education</li>
+                        <li>Microsoft Teams for Education</li>
+                        <li>Microsoft 365 Education</li>
+                        <li>Office Education</li>
+                        <li>Educator training and development</li>
+                        <li>Deals for students and parents</li>
+                        <li>Azure for students</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footerItem mb-16">
+                <ul>
+                    <li class="font-bold text-lg text-gray-[11.75rem]00 mb-4">Business</li>
+                    <div class="font-light text-sm space-y-4">
+                        <li>Microsoft Cloud</li>
+                        <li>Microsoft Security</li>
+                        <li>Azure </li>
+                        <li>Dynamics 365</li>
+                        <li>Microsoft 365</li>
+                        <li>Microsoft Advertising</li>
+                        <li>Microsoft Industry</li>
+                        <li>Microsoft Teams</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footerItem mb-16">
+                <ul>
+                    <li class="font-bold text-lg text-gray-[11.75rem]00 mb-4">Development & IT</li>
+                    <div class="font-light text-sm space-y-4">
+                        <li>Developer Center</li>
+                        <li>Documentation </li>
+                        <li>Microsoft Learn</li>
+                        <li>Microsoft Tech </li>
+                        <li>Azure Marketplace Community</li>
+                        <li>AppSource </li>
+                        <li>Microsoft Power Platform</li>
+                        <li>Visual Studio</li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="footerItem mb-16">
+                <ul>
+                    <li class="font-bold text-lg text-gray-[11.75rem]00 mb-4">Company</li>
+                    <div class="font-light text-sm space-y-4">
+                        <li>Careers </li>
+                        <li>About Microsoft</li>
+                        <li>Company news</li>
+                        <li>Privacy at Microsoft</li>
+                        <li>Investors </li>
+                        <li>Security</li>
+                        <li>Sustainability</li>
+                    </div>
+                </ul>
+            </div>
+
+
+        </div>
+
+       <div class="base  pl-12 pt-10 flex flex-col  bg-[#f2f2f2] md:grid md:grid-cols-2 md:space-around">
+        <div class="language mb-9 md:flex md:mr-4">
+            <img src="/images/earth.svg" alt="" class="md:mr-2">
+            <p>English (India)</p>
+        </div>
+        <nav class="">
+            <ul class="flex flex-wrap  font-light text-sm">
+                <li class="pr-4 ">Contact Microsoft</li>
+                <li class="pr-4 "> Privacy </li>
+                <li class="pr-4 "> Terms of use </li>
+                <li class="pr-4 ">Trademarks</li>
+                <li class="pr-4 ">About our ads</li>
+                <li class="pr-4 ">© Microsoft 2022</li>
+            </ul>
+        </nav>
+       </div>
+
+</body>
+
+</html>
+
+
+
